@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+width: 100vw;
+height: 100vh;
+color: white;
+
+}
+.main{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.nav{
+    /* background-color: red; */
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 0 3rem;
+}
+.nav-middle{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+.nav-right{
+    display: flex;
+align-items:center;
+    gap: 2rem;
+}
+
+button{
+    padding: .8rem .6rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+img.logo{
+height: 4rem;
+object-fit: cover;
+}
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.center-text>h1{
+    font-size: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+span{
+    font-size: 3rem;
+    padding: 2rem 2rem;
+    background-color: brown;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.center-text h1:nth-child(1){
+    color: red;
+    letter-spacing: 1px;
+}
+.left-img{
+height: 17rem;
+position: absolute;
+top: 31%;
+left: 6%;
+border-radius: 1rem;
+}
+.right-img{
+height: 17rem;
+position: absolute;
+bottom: 31%;
+right: 6%;
+border-radius: 1rem;
+}
+.scroll{
+    position: absolute;
+    bottom: 12%;
+    left:50%;
+    transform: translate(-50%,0);
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
